@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.authors               = { "Alex Maimescu" => "maimescu.alex@gmail.com" }
 
   s.platform              = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.pod_target_xcconfig   = { 'OTHER_LDFLAGS' => '-lObjC' }
 
